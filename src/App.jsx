@@ -76,7 +76,7 @@ function App() {
       </InnerContainer>
 
 
-      {/* Form for adding item to wishlist wish onSubmit functionality */}
+      {/* Form for adding item to wishlist with onSubmit functionality */}
       <Form onSubmit={event => {
         event.preventDefault()
         let input = event.target.input.value;
